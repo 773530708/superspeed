@@ -136,9 +136,11 @@ runtest() {
 		start=$(date +%s) 
 
 		 speed_test '3633' '上海' '电信'
+		 speed_test '26352' '江苏南京５Ｇ' '电信'
 		 speed_test '7509' '浙江杭州' '电信'
-		 speed_test '5396' '江苏苏州５Ｇ' '电信'
 		 speed_test '27377' '北京５Ｇ' '电信'
+		 speed_test '17145' '安徽合肥５Ｇ' '电信'
+		 speed_test '28225' '湖南长沙５Ｇ' '电信'
 	
 		#***
 		 speed_test '24447' '上海５Ｇ' '联通'
@@ -175,6 +177,9 @@ runtest() {
 		 speed_test '3633' '上海' '电信'
 		 speed_test '26352' '江苏南京５Ｇ' '电信'
 		 speed_test '7509' '浙江杭州' '电信'
+		 speed_test '27377' '北京５Ｇ' '电信'
+		 speed_test '17145' '安徽合肥５Ｇ' '电信'
+		 speed_test '28225' '湖南长沙５Ｇ' '电信'
 
 
 		end=$(date +%s)  
