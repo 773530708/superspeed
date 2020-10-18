@@ -145,6 +145,7 @@ runtest() {
 		#***
 		 speed_test '24447' '上海５Ｇ' '联通'
 		 speed_test '13704' '江苏南京' '联通'
+		 speed_test '5724' '安徽合肥' '联通'
 
 		#***
 		speed_test '6715' '浙江宁波５Ｇ' '移动'
@@ -204,6 +205,8 @@ runtest() {
 
 		 speed_test '21005' '上海' '联通'
 		 speed_test '24447' '上海５Ｇ' '联通'
+		 speed_test '13704' '江苏南京' '联通'
+		 speed_test '5724' '安徽合肥' '联通'
 		
 		end=$(date +%s)  
 		rm -rf speedtest*
